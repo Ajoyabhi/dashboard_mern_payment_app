@@ -8,5 +8,5 @@ const config = {
   jwtExpiresIn: process.env.JWT_EXPIRES_IN || '1d',
   corsOrigin: process.env.CORS_ORIGIN || '*'
 };
-
+//testing
 module.exports = config; 
